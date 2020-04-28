@@ -932,6 +932,7 @@ GameObject:
   - component: {fileID: 4610535315419105108}
   - component: {fileID: 4610535315409856700}
   - component: {fileID: 7453681915574000471}
+  - component: {fileID: 5277450862165542420}
   m_Layer: 0
   m_Name: JohnLemon
   m_TagString: Untagged
@@ -967,7 +968,7 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: b44f3940c4940544a8c2c6aee5fa086f, type: 3}
   m_Controller: {fileID: 9100000, guid: 96571b9368419eb47896f5fa1446a4fb, type: 2}
   m_CullingMode: 1
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -988,8 +989,22 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!136 &5277450862165542420
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610535315419208564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.4
+  m_Height: 1.4
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!1 &4610535315419208566
 GameObject:
   m_ObjectHideFlags: 0
